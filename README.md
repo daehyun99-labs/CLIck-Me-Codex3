@@ -2,6 +2,15 @@
 
 CLIck-Me-Codex3 is a minimal command line interface built with [Click](https://click.palletsprojects.com/) that displays a short profile.
 
+## Technology Stack
+
+| Language/Framework | Usage | Notes |
+|--------------------|-------|-------|
+| Python             | Core development language | |
+| Click              | Command line interface | |
+| Rich               | Console formatting | |
+| PyFiglet           | ASCII art generation | |
+
 ## Setup
 
 Ensure Python 3.10 or later is installed. It's highly recommended to work within a virtual environment.
@@ -22,3 +31,9 @@ Run the profile command with:
 ```bash
 python KimDaeHyun/cli-profile.py --color magenta --message "Hello from Click"
 ```
+
+## Previous Projects
+
+| Project Name | Description | Link |
+|--------------|-------------|------|
+| | | |
