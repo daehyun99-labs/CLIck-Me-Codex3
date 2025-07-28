@@ -3,7 +3,7 @@ import pyfiglet
 from rich.console import Console
 
 @click.command()
-@click.option('--color', default='cyan', help='Color for the output text')
+@click.option('--color', type=click.Choice(['black', 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white'], case_sensitive=False), default='cyan', help='Color for the output text')
 @click.option('--message', default='Developer of CLIck-Me-Codex3', help='Custom message')
 def main(color, message):
     """Display a simple CLI profile."""
