@@ -13,11 +13,12 @@ source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
 # Install dependencies from requirements.txt
 pip install -r requirements.txt
+```
 
 ## Usage
 
 Run the profile command with:
 
 ```bash
-python profile.py
+python KimDaeHyun/cli-profile.py --color magenta --message "Hello from Click"
 ```
